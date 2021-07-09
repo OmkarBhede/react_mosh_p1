@@ -30,18 +30,18 @@ export default class App extends Component {
     }
   };
   onDelete = (id) => {
-    const counters = this.state.counters.filter((c) => c.id != id);
-    this.setState({ counters });
+    // const counters = this.state.counters.filter((c) => c.id != id);
+    // this.setState({ counters });
   };
   onReset = () => {
-    const counters = this.state.counters.map((c) => {
-      c.value = 0;
-      return c;
-    });
-    this.setState({ counters });
+    // const counters = this.state.counters.map((c) => {
+    //   c.value = 0;
+    //   return c;
+    // });
+    // this.setState({ counters });
   };
   totalCount = () => {
-    const count = this.state.counters.map(c);
+    // const count = this.state.counters.map(c);
   };
   render() {
     return (
